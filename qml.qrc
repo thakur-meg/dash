@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>CenterElement.qml</file>
+        <file>TopBar.qml</file>
+        <file>pics/battery.png</file>
+        <file>pics/bluetooth.png</file>
+        <file>pics/email.png</file>
+        <file>pics/hotspot.png</file>
+        <file>pics/right.png</file>
+        <file>pics/signal.png</file>
+        <file>pics/temp.png</file>
+        <file>RightElement.qml</file>
+        <file>LeftElement.qml</file>
+        <file>BottomBar.qml</file>
+    </qresource>
+</RCC>
