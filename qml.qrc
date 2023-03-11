@@ -13,5 +13,9 @@
         <file>RightElement.qml</file>
         <file>LeftElement.qml</file>
         <file>BottomBar.qml</file>
+        <file>Speedometer.qml</file>
+        <file>pics/dialbkg.png</file>
+        <file>pics/line.png</file>
+        <file>Dial.qml</file>
     </qresource>
 </RCC>

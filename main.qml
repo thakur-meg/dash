@@ -19,6 +19,13 @@ Window {
         y: (parent.height / 2) - (height / 2)
     }
 
+    Speedometer{
+        height: 300
+        width: 400
+        x: (parent.width / 2) - (width / 2)
+        y: (parent.height / 2) - (height / 2)
+    }
+
     TopBar{
         height: 20
         width: parent.width
