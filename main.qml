@@ -1,6 +1,6 @@
 import QtQuick 2.12
 import QtQuick.Window 2.12
-import QtQuick.Controls 1.3
+import QtQuick.Controls 2.15
 import QtQuick.Dialogs 1.2
 import QtQuick.Layouts 1.1
 
@@ -12,19 +12,39 @@ Window {
 
     color: "#2e314b"
 
-    CenterElement{
-        height: 300
-        width: 400
-        x: (parent.width / 2) - (width / 2)
-        y: (parent.height / 2) - (height / 2)
+    SwipeView{
+
+        id: view
+
+        currentIndex: 1
+        anchors.fill: parent
+
+
+        Item {
+            id: firstPage
+            CenterElement{
+                height: 300
+                width: 400
+                x: (parent.width / 2) - (width / 2)
+                y: (parent.height / 2) - (height / 2)
+                   }
+                }
+        Item {
+            id: secondPage
+            Speedometer{
+                    height: 300
+                    width: 400
+                    x: (parent.width / 2) - (width / 2)
+                    y: (parent.height / 2) - (height / 2)
+                    }
+                }
+
+
+
+
     }
 
-    Speedometer{
-        height: 300
-        width: 400
-        x: (parent.width / 2) - (width / 2)
-        y: (parent.height / 2) - (height / 2)
-    }
+
 
     TopBar{
         height: 20
